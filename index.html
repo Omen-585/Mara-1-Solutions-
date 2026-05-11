@@ -1,352 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Mara-1 Solutions | Cyber Security & Technical Services PNG</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mara-1 Solutions | Cyber Security & Tactical Services PNG</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<style>
-:root {
---primary-green: #00ff88;
---dark-bg: #050505;
---card-bg: #0d0d0d;
---text-main: #ffffff;
---text-dim: #cccccc;
---glow: rgba(0, 255, 136, 0.4);
-}
+  <style>
+    :root {
+      --primary-green: #00ff88;
+      --dark-bg: #050505;
+      --card-bg: #0d0d0d;
+      --text-main: #ffffff;
+      --text-dim: #cccccc;
+      --glow: rgba(0, 255, 136, 0.4);
+    }
 
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-scroll-behavior: smooth;
-}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
 
-body {
-font-family: 'Poppins', sans-serif;
-background: var(--dark-bg);
-color: var(--text-main);
-overflow-x: hidden;
-}
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--dark-bg);
+      color: var(--text-main);
+      overflow-x: hidden;
+    }
 
-/* ADVANCED MATRIX BACKGROUND */
-body::before {
-content: "";
-position: fixed;
-inset: 0;
-background:
-linear-gradient(var(--glow) 1px, transparent 1px),
-linear-gradient(90deg, var(--glow) 1px, transparent 1px);
-background-size: 50px 50px;
-z-index: -2;
-opacity: 0.15;
-}
+    /* ADVANCED MATRIX BACKGROUND */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: 
+        linear-gradient(var(--glow) 1px, transparent 1px),
+        linear-gradient(90deg, var(--glow) 1px, transparent 1px);
+      background-size: 50px 50px;
+      z-index: -2;
+      opacity: 0.15;
+    }
 
-body::after {
-content: "";
-position: fixed;
-inset: 0;
-background: radial-gradient(circle at center, rgba(0, 255, 136, 0.05), transparent 80%);
-z-index: -1;
-}
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle at center, rgba(0, 255, 136, 0.05), transparent 80%);
+      z-index: -1;
+    }
 
-header {
-background: rgba(0, 0, 0, 0.9);
-border-bottom: 2px solid var(--primary-green);
-position: sticky;
-top: 0;
-z-index: 1000;
-backdrop-filter: blur(12px);
-}
+    header {
+      background: rgba(0, 0, 0, 0.9);
+      border-bottom: 2px solid var(--primary-green);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      backdrop-filter: blur(12px);
+    }
 
-nav {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 15px 8%;
-max-width: 1400px;
-margin: 0 auto;
-}
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 8%;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
 
-.logo {
-font-family: 'Orbitron', sans-serif;
-color: var(--primary-green);
-font-size: 24px;
-font-weight: bold;
-text-decoration: none;
-text-shadow: 0 0 10px var(--primary-green);
-}
+    .logo {
+      font-family: 'Orbitron', sans-serif;
+      color: var(--primary-green);
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      text-shadow: 0 0 10px var(--primary-green);
+    }
 
-nav ul {
-display: flex;
-gap: 30px;
-list-style: none;
-}
+    nav ul {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+    }
 
-nav ul li a {
-color: var(--text-main);
-text-decoration: none;
-transition: 0.3s;
-font-weight: 500;
-font-size: 0.9rem;
-text-transform: uppercase;
-letter-spacing: 1px;
-}
+    nav ul li a {
+      color: var(--text-main);
+      text-decoration: none;
+      transition: 0.3s;
+      font-weight: 500;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
 
-nav ul li a:hover {
-color: var(--primary-green);
-text-shadow: 0 0 8px var(--primary-green);
-}
+    nav ul li a:hover {
+      color: var(--primary-green);
+      text-shadow: 0 0 8px var(--primary-green);
+    }
 
-/* HERO SECTION */
-.hero {
-height: 90vh;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-padding: 20px;
-background:
-linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)),
-url('https://images.unsplash.com/photo-1510511459019-5dda7724fd87?q=80&w=1400&auto=format&fit=crop') center/cover no-repeat;
-}
+    /* HERO SECTION */
+    .hero {
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+      background: 
+        linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)),
+        url('https://images.unsplash.com/photo-1510511459019-5dda7724fd87?q=80&w=1400&auto=format&fit=crop') center/cover no-repeat;
+    }
 
-.hero-content h1 {
-font-size: clamp(32px, 5vw, 60px);
-color: var(--primary-green);
-font-family: 'Orbitron', sans-serif;
-text-shadow: 0 0 20px var(--primary-green);
-line-height: 1.2;
-}
+    .hero-content h1 {
+      font-size: clamp(32px, 5vw, 60px);
+      color: var(--primary-green);
+      font-family: 'Orbitron', sans-serif;
+      text-shadow: 0 0 20px var(--primary-green);
+      line-height: 1.2;
+    }
 
-.hero-content p {
-margin: 25px auto;
-font-size: 1.1rem;
-color: var(--text-dim);
-max-width: 700px;
-}
+    .hero-content p {
+      margin: 25px auto;
+      font-size: 1.1rem;
+      color: var(--text-dim);
+      max-width: 700px;
+    }
 
-/* SEARCH BAR PULSE EFFECT */
-@keyframes pulse {
-0% { box-shadow: 0 0 5px rgba(0,255,136,0.2); }
-50% { box-shadow: 0 0 20px rgba(0,255,136,0.5); }
-100% { box-shadow: 0 0 5px rgba(0,255,136,0.2); }
-}
+    /* SEARCH BAR PULSE EFFECT */
+    @keyframes pulse {
+      0% { box-shadow: 0 0 5px rgba(0,255,136,0.2); }
+      50% { box-shadow: 0 0 20px rgba(0,255,136,0.5); }
+      100% { box-shadow: 0 0 5px rgba(0,255,136,0.2); }
+    }
 
-.search-bar input {
-width: 100%;
-max-width: 400px;
-padding: 15px 25px;
-border-radius: 50px;
-background: #111;
-color: var(--primary-green);
-border: 2px solid var(--primary-green);
-outline: none;
-animation: pulse 3s infinite ease-in-out;
-}
+    .search-bar input {
+      width: 100%;
+      max-width: 400px;
+      padding: 15px 25px;
+      border-radius: 50px;
+      background: #111;
+      color: var(--primary-green);
+      border: 2px solid var(--primary-green);
+      outline: none;
+      animation: pulse 3s infinite ease-in-out;
+    }
 
-/* SERVICES SECTION */
-section { padding: 100px 8%; max-width: 1400px; margin: 0 auto; }
+    /* SERVICES SECTION */
+    section { padding: 100px 8%; max-width: 1400px; margin: 0 auto; }
 
-.section-title {
-text-align: center;
-font-size: 36px;
-margin-bottom: 60px;
-color: var(--primary-green);
-font-family: 'Orbitron', sans-serif;
-letter-spacing: 3px;
-}
+    .section-title {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 60px;
+      color: var(--primary-green);
+      font-family: 'Orbitron', sans-serif;
+      letter-spacing: 3px;
+    }
 
-.services-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-gap: 30px;
-}
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
 
-.card {
-background: var(--card-bg);
-border: 1px solid rgba(0, 255, 136, 0.2);
-border-radius: 15px;
-overflow: hidden;
-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
+    .card {
+      background: var(--card-bg);
+      border: 1px solid rgba(0, 255, 136, 0.2);
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
 
-.card:hover {
-transform: translateY(-12px);
-border-color: var(--primary-green);
-box-shadow: 0 10px 30px rgba(0, 255, 136, 0.2);
-}
+    .card:hover {
+      transform: translateY(-12px);
+      border-color: var(--primary-green);
+      box-shadow: 0 10px 30px rgba(0, 255, 136, 0.2);
+    }
 
-.card-img-container {
-width: 100%;
-height: 220px;
-overflow: hidden;
-}
+    .card-img-container {
+      width: 100%;
+      height: 220px;
+      overflow: hidden;
+    }
 
-.card img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-transition: transform 0.5s ease;
-}
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
 
-.card:hover img {
-transform: scale(1.1);
-}
+    .card:hover img {
+      transform: scale(1.1);
+    }
 
-.card-content { padding: 30px; }
+    .card-content { padding: 30px; }
 
-.card-content h3 {
-color: var(--primary-green);
-margin-bottom: 15px;
-font-size: 22px;
-font-family: 'Orbitron', sans-serif;
-}
+    .card-content h3 {
+      color: var(--primary-green);
+      margin-bottom: 15px;
+      font-size: 22px;
+      font-family: 'Orbitron', sans-serif;
+    }
 
-.card-content p {
-color: var(--text-dim);
-font-size: 0.95rem;
-line-height: 1.6;
-}
+    .card-content p {
+      color: var(--text-dim);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
 
-/* CONTACT SECTION */
-.contact-container {
-background: #0a0a0a;
-padding: 50px;
-border-radius: 20px;
-border: 1px solid rgba(0, 255, 136, 0.3);
-text-align: center;
-box-shadow: 0 0 40px rgba(0,0,0,0.5);
-}
+    /* CONTACT SECTION */
+    .contact-container {
+      background: #0a0a0a;
+      padding: 50px;
+      border-radius: 20px;
+      border: 1px solid rgba(0, 255, 136, 0.3);
+      text-align: center;
+      box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    }
 
-.contact-container h3 {
-font-family: 'Orbitron', sans-serif;
-color: var(--primary-green);
-margin-bottom: 25px;
-}
+    .contact-container h3 {
+      font-family: 'Orbitron', sans-serif;
+      color: var(--primary-green);
+      margin-bottom: 25px;
+    }
 
-.contact-container p { margin: 12px 0; color: var(--text-dim); }
+    .contact-container p { margin: 12px 0; color: var(--text-dim); }
 
-footer {
-text-align: center;
-padding: 40px;
-border-top: 1px solid rgba(0, 255, 136, 0.1);
-color: #666;
-font-size: 0.8rem;
-}
+    footer {
+      text-align: center;
+      padding: 40px;
+      border-top: 1px solid rgba(0, 255, 136, 0.1);
+      color: #666;
+      font-size: 0.8rem;
+    }
 
-/* MOBILE OPTIMIZATION */
-@media (max-width: 768px) {
-nav { flex-direction: column; gap: 15px; }
-nav ul { gap: 15px; font-size: 0.8rem; }
-.hero-content h1 { font-size: 36px; }
-section { padding: 60px 5%; }
-}
-</style>
+    /* MOBILE OPTIMIZATION */
+    @media (max-width: 768px) {
+      nav { flex-direction: column; gap: 15px; }
+      nav ul { gap: 15px; font-size: 0.8rem; }
+      .hero-content h1 { font-size: 36px; }
+      section { padding: 60px 5%; }
+    }
+  </style>
 </head>
 <body>
 
-<header>
-<nav>
-<a href="#" class="logo">MARA-1 SOLUTIONS</a>
-<ul>
-<li><a href="#services">Services</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-</header>
+  <header>
+    <nav>
+      <a href="#" class="logo">MARA-1 SOLUTIONS</a>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<main>
-<section class="hero">
-<div class="hero-content">
-<h1>CYBER • TECH • SECURITY</h1>
-<p>Premium multi-sector tactical solutions and technical maintenance serving the National Capital District and across Papua New Guinea.</p>
-<div class="search-bar">
-<input type="text" placeholder="Search systems or services...">
-</div>
-</div>
-</section>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>CYBER • TECH • SECURITY</h1>
+        <p>Premium multi-sector tactical solutions and technical maintenance serving the National Capital District and across Papua New Guinea.</p>
+        <div class="search-bar">
+          <input type="text" placeholder="Search systems or services...">
+        </div>
+      </div>
+    </section>
 
-<section id="services">
-<h2 class="section-title">OPERATIONAL SERVICES</h2>
-<div class="services-grid">
+    <section id="services">
+      <h2 class="section-title">OPERATIONAL SERVICES</h2>
+      <div class="services-grid">
+        
+        <article class="card">
+          <div class="card-img-container">
+            <img src="https://wp.nbc.com.pg/wp-content/uploads/2024/11/Mr.-TEkwie.jpeg" alt="PNG Cyber Security">
+          </div>
+          <div class="card-content">
+            <h3>Cyber Security</h3>
+            <p>Advanced penetration testing, vulnerability assessment, and digital asset protection for corporate environments in PNG.</p>
+          </div>
+        </article>
 
-<article class="card">
-<div class="card-img-container">
-<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop" alt="Cyber Security">
-</div>
-<div class="card-content">
-<h3>Cyber Security</h3>
-<p>Advanced penetration testing, vulnerability assessment, and digital asset protection for corporate environments.</p>
-</div>
-</article>
+        <article class="card">
+          <div class="card-img-container">
+            <img src="https://img.freepik.com/premium-photo/black-man-technician-fixing-electronics-tablet-hardware-soldering-iron-tools-tech-repair-maintenance-magnifying-glass-electrical-fix-with-happy-male-portrait-working-device_590464-165480.jpg" alt="Black IT Maintenance">
+          </div>
+          <div class="card-content">
+            <h3>IT Repair & Support</h3>
+            <p>Complete hardware maintenance, server diagnostics, and networking solutions for small to large scale operations.</p>
+          </div>
+        </article>
 
-<article class="card">
-<div class="card-img-container">
-<img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop" alt="IT Maintenance">
-</div>
-<div class="card-content">
-<h3>IT Repair & Support</h3>
-<p>Complete hardware maintenance, server diagnostics, and networking solutions for small to large scale operations.</p>
-</div>
-</article>
+        <article class="card">
+          <div class="card-img-container">
+            <img src="https://media.istockphoto.com/id/1147479507/vector/a-car-accident.jpg" alt="PNG Automotive Repair">
+          </div>
+          <div class="card-content">
+            <h3>Car Panel & Mechanics</h3>
+            <p>High-precision body repair, professional spray painting, and mechanical maintenance for modern fleets.</p>
+          </div>
+        </article>
 
-<article class="card">
-<div class="card-img-container">
-<img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=800&auto=format&fit=crop" alt="Automotive">
-</div>
-<div class="card-content">
-<h3>Car Panel & Mechanics</h3>
-<p>High-precision body repair, professional spray painting, and mechanical maintenance for modern fleets.</p>
-</div>
-</article>
+        <article class="card">
+          <div class="card-img-container">
+            <img src="https://www.shutterstock.com/image-photo/engineer-team-portrait-smile-black-600nw-2302260751.jpg" alt="PNG Construction Workers">
+          </div>
+          <div class="card-content">
+            <h3>Property Renovation</h3>
+            <p>Expert house renovation, structural maintenance, and property upgrades tailored to local PNG standards.</p>
+          </div>
+        </article>
 
-<article class="card">
-<div class="card-img-container">
-<img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop" alt="Renovation">
-</div>
-<div class="card-content">
-<h3>Property Renovation</h3>
-<p>Expert house renovation, structural maintenance, and property upgrades tailored to local PNG standards.</p>
-</div>
-</article>
+        <article class="card">
+          <div class="card-img-container">
+            <img src="https://img.freepik.com/free-photo/smiling-man-enjoying-car-test-drive-showroom_482257-117309.jpg" alt="Black Professional Driver">
+          </div>
+          <div class="card-content">
+            <h3>Personnel Logistics</h3>
+            <p>Professional drivers available for executive transport and high-value asset protection.</p>
+          </div>
+        </article>
 
-<article class="card">
-<div class="card-img-container">
-<img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=800&auto=format&fit=crop" alt="Drivers">
-</div>
-<div class="card-content">
-<h3>Personnel Logistics</h3>
-<p>Professional drivers and elite security personnel for executive transport and high-value asset protection.</p>
-</div>
-</article>
+        <article class="card">
+          <div class="card-img-container">
+            <img src="https://thumbs.dreamstime.com/b/full-body-short-black-man-as-security-guard-headset-76255427.jpg" alt="Black Security Guard">
+          </div>
+          <div class="card-content">
+            <h3>Tactical Security</h3>
+            <p>Highly trained security personnel for private guarding, patrol operations, and asset security.</p>
+          </div>
+        </article>
 
-</div>
-</section>
+      </div>
+    </section>
 
-<section id="about" style="background: rgba(10,10,10,0.5);">
-<h2 class="section-title">ABOUT THE FIRM</h2>
-<div style="max-width: 800px; margin: 0 auto; text-align: center; line-height: 1.8; color: var(--text-dim);">
-<p>Led by Managing Director <strong>Thompson Mara Maginde</strong>, Mara-1 Solutions operates at the intersection of technology and physical security. Based in Vision City, we provide a unique multi-service platform designed to solve complex challenges for businesses and private clients throughout Papua New Guinea.</p>
-</div>
-</section>
+    <section id="about" style="background: rgba(10,10,10,0.5);">
+      <h2 class="section-title">ABOUT THE FIRM</h2>
+      <div style="max-width: 800px; margin: 0 auto; text-align: center; line-height: 1.8; color: var(--text-dim);">
+        <p>Led by Managing Director <strong>Thompson Mara Maginde</strong>, Mara-1 Solutions operates at the intersection of technology and physical security. Based in Vision City, we provide a unique multi-service platform designed to solve complex challenges for businesses and private clients throughout Papua New Guinea.</p>
+      </div>
+    </section>
 
-<section id="contact">
-<div class="contact-container">
-<h3>INITIATE CONTACT</h3>
-<p><strong>PO BOX 261, Vision City, NCD, Papua New Guinea 🇵🇬</strong></p>
-<p>Email: <a href="mailto:thompson.maginde@gmail.com" style="color:var(--primary-green); text-decoration:none;">thompson.maginde@gmail.com</a></p>
-<p>Ph: +675 74494594 / +675 77327218</p>
-</div>
-</section>
-</main>
+    <section id="contact">
+      <div class="contact-container">
+        <h3>INITIATE CONTACT</h3>
+        <p><strong>PO BOX 261, Vision City, NCD, Papua New Guinea 🇵🇬</strong></p>
+        <p>Email: <a href="mailto:thompson.maginde@gmail.com" style="color:var(--primary-green); text-decoration:none;">thompson.maginde@gmail.com</a></p>
+        <p>Ph: +675 74494594 / +675 77327218</p>
+      </div>
+    </section>
+  </main>
 
-<footer>
-© 2026 Mara-1 Solutions. Verified Security Protocol Active.
-</footer>
+  <footer>
+    &copy; 2026 Mara-1 Solutions. Verified Security Protocol Active.
+  </footer>
 
 </body>
 </html>
