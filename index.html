@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mara-1 Solutions | Cyber Security & Tactical Services PNG</title>
+  <title>Mara-1 Solutions | Cyber • Tactical • Technical PNG</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
@@ -70,12 +70,25 @@
       margin: 0 auto;
     }
 
-    .logo {
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .logo-image {
+      width: 45px;
+      height: 45px;
+      border-radius: 5px;
+      filter: drop-shadow(0 0 5px var(--primary-green));
+    }
+
+    .logo-text {
       font-family: 'Orbitron', sans-serif;
       color: var(--primary-green);
       font-size: 24px;
       font-weight: bold;
-      text-decoration: none;
       text-shadow: 0 0 10px var(--primary-green);
     }
 
@@ -211,6 +224,46 @@
       line-height: 1.6;
     }
 
+    /* PERSONNELL GALLERY SECTION */
+    .personnel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .personnel-card {
+      background: #111;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .personnel-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #0a0a0a;
+      box-shadow: 0 0 15px var(--glow);
+      margin-bottom: 20px;
+    }
+
+    .personnel-name {
+      color: var(--text-main);
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .personnel-role {
+      color: var(--primary-green);
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+    }
+
     /* CONTACT SECTION */
     .contact-container {
       background: #0a0a0a;
@@ -250,10 +303,14 @@
 
   <header>
     <nav>
-      <a href="#" class="logo">MARA-1 SOLUTIONS</a>
+      <a href="#" class="logo-container">
+        <img src="https://i.ibb.co/Xz90H5C/Mara1-Brandmark-3D.png" alt="Mara-1 Solutions 3D Mark" class="logo-image" />
+        <span class="logo-text">MARA-1 SOLUTIONS</span>
+      </a>
       <ul>
         <li><a href="#services">Services</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#expert">The Expert</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -262,7 +319,7 @@
   <main>
     <section class="hero">
       <div class="hero-content">
-        <h1>CYBER • TECH • SECURITY</h1>
+        <h1>TACTICAL • TECHNICAL • TANGIBLE</h1>
         <p>Premium multi-sector tactical solutions and technical maintenance serving the National Capital District and across Papua New Guinea.</p>
         <div class="search-bar">
           <input type="text" placeholder="Search systems or services...">
@@ -271,22 +328,22 @@
     </section>
 
     <section id="services">
-      <h2 class="section-title">OPERATIONAL SERVICES</h2>
+      <h2 class="section-title">CORE SERVICES</h2>
       <div class="services-grid">
         
         <article class="card">
           <div class="card-img-container">
-            <img src="https://wp.nbc.com.pg/wp-content/uploads/2024/11/Mr.-TEkwie.jpeg" alt="PNG Cyber Security">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop" alt="Cyber Security">
           </div>
           <div class="card-content">
             <h3>Cyber Security</h3>
-            <p>Advanced penetration testing, vulnerability assessment, and digital asset protection for corporate environments in PNG.</p>
+            <p>Advanced penetration testing, vulnerability assessment, and digital asset protection for corporate environments.</p>
           </div>
         </article>
 
         <article class="card">
           <div class="card-img-container">
-            <img src="https://img.freepik.com/premium-photo/black-man-technician-fixing-electronics-tablet-hardware-soldering-iron-tools-tech-repair-maintenance-magnifying-glass-electrical-fix-with-happy-male-portrait-working-device_590464-165480.jpg" alt="Black IT Maintenance">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop" alt="IT Repair">
           </div>
           <div class="card-content">
             <h3>IT Repair & Support</h3>
@@ -296,7 +353,7 @@
 
         <article class="card">
           <div class="card-img-container">
-            <img src="https://media.istockphoto.com/id/1147479507/vector/a-car-accident.jpg" alt="PNG Automotive Repair">
+            <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=800&auto=format&fit=crop" alt="Car Maintenance">
           </div>
           <div class="card-content">
             <h3>Car Panel & Mechanics</h3>
@@ -306,7 +363,7 @@
 
         <article class="card">
           <div class="card-img-container">
-            <img src="https://www.shutterstock.com/image-photo/engineer-team-portrait-smile-black-600nw-2302260751.jpg" alt="PNG Construction Workers">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop" alt="House Renovation">
           </div>
           <div class="card-content">
             <h3>Property Renovation</h3>
@@ -316,7 +373,7 @@
 
         <article class="card">
           <div class="card-img-container">
-            <img src="https://img.freepik.com/free-photo/smiling-man-enjoying-car-test-drive-showroom_482257-117309.jpg" alt="Black Professional Driver">
+            <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=800&auto=format&fit=crop" alt="Professional Drivers">
           </div>
           <div class="card-content">
             <h3>Personnel Logistics</h3>
@@ -326,7 +383,7 @@
 
         <article class="card">
           <div class="card-img-container">
-            <img src="https://thumbs.dreamstime.com/b/full-body-short-black-man-as-security-guard-headset-76255427.jpg" alt="Black Security Guard">
+            <img src="https://thumbs.dreamstime.com/b/full-body-short-black-man-as-security-guard-headset-76255427.jpg" alt="Security Guards">
           </div>
           <div class="card-content">
             <h3>Tactical Security</h3>
@@ -337,16 +394,51 @@
       </div>
     </section>
 
-    <section id="about" style="background: rgba(10,10,10,0.5);">
+    <section id="expert" style="background: rgba(10,10,10,0.5);">
+      <h2 class="section-title">MEET THE EXPERT: <span class="logo-text">THOMPSON MARA MAGINDE</span></h2>
+      <div style="max-width: 800px; margin: 0 auto 50px auto; text-align: center; line-height: 1.8; color: var(--text-dim);">
+        <p>A multi-sector technical expert with unmatched proficiency. Whether managing PNG’s critical cyber infrastructure, restoring high-value automotive chassis, or designing modern residential structures, Thompson Mara Maginde leads by practical execution.</p>
+      </div>
+
+      <div class="personnel-grid">
+        
+        <article class="personnel-card">
+          <img src="https://i.ibb.co/3WfK9Vp/Expert-Portrait-Cyber.png" alt="Thompson Cyber Security" class="personnel-image" />
+          <h4 class="personnel-name">THOMPSON M.M.</h4>
+          <p class="personnel-role">Head of Cyber Security & IT</p>
+        </article>
+
+        <article class="personnel-card">
+          <img src="https://i.ibb.co/Qn3S1b0/Expert-Portrait-Automotive.png" alt="Thompson Automotive" class="personnel-image" />
+          <h4 class="personnel-name">THOMPSON M.M.</h4>
+          <p class="personnel-role">Lead Panel & Mechanics</p>
+        </article>
+
+        <article class="personnel-card">
+          <img src="https://i.ibb.co/N1XhCgG/Expert-Portrait-Renovation.png" alt="Thompson Renovation" class="personnel-image" />
+          <h4 class="personnel-name">THOMPSON M.M.</h4>
+          <p class="personnel-role">Property Renovation Lead</p>
+        </article>
+
+        <article class="personnel-card">
+          <img src="https://i.ibb.co/6P2T28W/Expert-Portrait-Logistics.png" alt="Thompson Logistics" class="personnel-image" />
+          <h4 class="personnel-name">THOMPSON M.M.</h4>
+          <p class="personnel-role">Personnel Logistics Dir.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="about">
       <h2 class="section-title">ABOUT THE FIRM</h2>
       <div style="max-width: 800px; margin: 0 auto; text-align: center; line-height: 1.8; color: var(--text-dim);">
-        <p>Led by Managing Director <strong>Thompson Mara Maginde</strong>, Mara-1 Solutions operates at the intersection of technology and physical security. Based in Vision City, we provide a unique multi-service platform designed to solve complex challenges for businesses and private clients throughout Papua New Guinea.</p>
+        <p>Established as PNG's single-source solution provider, Mara-1 Solutions operates at the critical intersection of technology and physical asset security. Based in Vision City, NCD, we provide a unified multi-service platform designed to solve complex operational challenges for corporate and private clients throughout Papua New Guinea.</p>
       </div>
     </section>
 
     <section id="contact">
       <div class="contact-container">
-        <h3>INITIATE CONTACT</h3>
+        <h3>INITIATE TACTICAL CONTACT</h3>
         <p><strong>PO BOX 261, Vision City, NCD, Papua New Guinea 🇵🇬</strong></p>
         <p>Email: <a href="mailto:thompson.maginde@gmail.com" style="color:var(--primary-green); text-decoration:none;">thompson.maginde@gmail.com</a></p>
         <p>Ph: +675 74494594 / +675 77327218</p>
